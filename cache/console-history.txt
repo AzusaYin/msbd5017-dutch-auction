@@ -1,0 +1,271 @@
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+const factoryAddr = "部署后的 auctionFactory 地址";
+const imageAddr   = "部署后的 imageNFT 地址";
+const promptAddr  = "部署后的 promptNFT 地址";
+const [owner] = await ethers.getSigners();
+await factory.getAunctionByTokenId(tokenId);
+// 取出拍卖地址
+await factory.createAuction(3600, tokenId);
+await image.approve(factoryAddr, tokenId);
+const tokenId = await image.getTokenIdByCID(imgCid);
+await image.awardItem(owner.address, metaCid, imgCid, promptCid);
+await prompt.awardItem(owner.address, promptCid);
+const promptCid = "QmPrompt_" + Date.now();
+const imgCid  = "QmImg_" + Date.now();
+const metaCid = "QmMeta_" + Date.now();
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const image   = await ethers.getContractAt("ImageNFT", imageAddr, owner);
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+const factoryAddr = "部署后的 auctionFactory 地址";
+const imageAddr   = "部署后的 imageNFT 地址";
+const promptAddr  = "部署后的 promptNFT 地址";
+const [owner] = await ethers.getSigners();
+(await ethers.provider.getBalance(target)).toString();
+]);
+  "0x56BC75E2D63100000"   // 100 ETH
+  target,
+await network.provider.send("hardhat_setBalance", [
+(await ethers.provider.getBalance(target)).toString();
+]);
+  "0x56BC75E2D63100000"   // 100 ETH
+  target,
+await network.provider.send("hardhat_setBalance", [
+target
+const target = "0x3fd6dc177040a68ea1572cc6300d1d89c8b6450b"
+await factory.getAunctionByTokenId(1)
+(await auction.getCurrentPrice()).toString();
+const auction = await ethers.getContractAt("DutchAuction", auctionAddr);
+auctionAddr;
+const auctionAddr = await factory.getAunctionByTokenId(1);
+(await ethers.provider.getBalance(target)).toString()
+]);
+  "0x56BC75E2D63100000" // 100 ETH
+  target,
+await network.provider.send("hardhat_setBalance", [
+const target = "0x3fd6dc177040a68ea1572cc6300d1d89c8b6450b";
+auctionAddr;
+const auctionAddr = await factory.getAunctionByTokenId(tokenId);
+await factory.createAuction(3600, tokenId);
+await image.approve(factoryAddr, tokenId);
+tokenId.toString();
+const tokenId = await image.getTokenIdByCID(imgCid);
+await image.awardItem(owner.address, metaCid, imgCid, promptCid);
+await prompt.awardItem(owner.address, promptCid);
+const imgCid    = "QmImg_"    + Date.now();
+const metaCid   = "QmMeta_"   + Date.now();
+const promptCid = "QmPrompt_" + Date.now();
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const image   = await ethers.getContractAt("ImageNFT", imageAddr, owner);
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+const factoryAddr = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"
+const imageAddr   = "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707"
+const promptAddr  = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+const [owner] = await ethers.getSigners();
+tokenId.toString();
+const tokenId = await image.getTokenIdByCID(imgCid);
+await prompt.awardItem(owner.address, promptCid);
+await image.awardItem(owner.address, metaCid, imgCid, promptCid);
+await prompt.awardItem(owner.address, promptCid);
+const imgCid    = "QmImg_"    + Date.now();
+const metaCid   = "QmMeta_"   + Date.now();
+const promptCid = "QmPrompt_" + Date.now();
+);
+  promptCid      // 👈 一定要用同一个
+  "QmImg_" + Date.now(),
+  "QmMeta_" + Date.now(),
+  owner.address,
+await image.awardItem(
+await prompt.awardItem(owner.address, promptCid);
+const promptCid = "QmPrompt_" + Date.now();
+const tokenId = await image.getTokenIdByCID(/* 上面 image 用的那个 QmImg_xxx */);
+await image.awardItem(owner.address, "QmMeta_" + Date.now(), "QmImg_" + Date.now(), "QmPrompt_" + Date.now());
+await prompt.awardItem(owner.address, "QmPrompt_" + Date.now());
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const image   = await ethers.getContractAt("ImageNFT", imageAddr, owner);
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+const factoryAddr = "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9";
+const imageAddr   = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const promptAddr  = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const [owner] = await ethers.getSigners();
+(await ethers.provider.getBalance(target)).toString();
+]);
+  "0x56BC75E2D63100000"   // 100 ETH
+  target,
+await network.provider.send("hardhat_setBalance", [
+target.slice(2).length
+target.length
+const target = "0x3fd6dc177040a68ea1572cc6300d1d89c8b6450b"
+target1.length
+target1.length   
+const target1 = 0x3fd6dc177040a68ea1572cc6300d1d89c8b6450b
+const target = 0x3fd6dc177040a68ea1572cc6300d1d89c8b6450b
+target.slice(2).length
+target.length
+await network.provider.send("hardhat_setBalance", [target,"0x56BC75E2D63100000"]);
+await network.provider.send("hardhat_setBalance", [  target,  "0x56BC75E2D63100000"   // 100 ETH]);
+]);
+  "0x56BC75E2D63100000"   // 100 ETH
+  target,
+await network.provider.send("hardhat_setBalance", [
+const target = "0x3f6d6dc177040a68ea1572cc6300d1d89c8b6450b";
+await network.provider.send("hardhat_setBalance", [  target,  "0x56BC75E2D63100000"  // 100 * 10^18 的十六进制]);
+await rich.sendTransaction({  to: target,  value: ethers.parseEther("100.0")});
+const target = "0x3f6d6dc177040a68ea1572cc6300d1d89c8b6450b";
+rich.address;
+const [rich] = await ethers.getSigners();
+});
+  value: ethers.parseEther("100.0")
+  to: target,
+await rich._signer.sendTransaction({
+await rich.sendTransaction({  to: "0x3f6d6dc177040a68ea1572cc6300d1d89c8b6450b",  value: ethers.parseEther("100.0")});
+});
+  value: ethers.parseEther("100.0")
+  to: "0x3f6d6dc177040a68ea1572cc6300d1d89c8b6450b",
+await rich.sendTransaction({
+(await ethers.provider.getBalance(target)).toString();
+await rich.sendTransaction({  to: target,  value: ethers.parseEther("100.0")});
+});
+  value: ethers.parseEther("100.0")
+  to: target,
+await rich.sendTransaction({
+const target = "0x3f6d6dc177040a68ea1572cc6300d1d89c8b6450b";
+rich.address;
+const [rich] = await ethers.getSigners();
+auctionAddr;
+const auctionAddr = await factory.getAunctionByTokenId(tokenId);
+tokenId.toString(); 
+const tokenId = await image.getTokenIdByCID("QmImg");
+await image.awardItem(owner.address, "QmMeta", "QmImg", "QmTestPrompt");
+await prompt.awardItem(owner.address, "QmTestPrompt");
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const image   = await ethers.getContractAt("ImageNFT", imageAddr, owner);
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+const factoryAddr = "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9";
+const imageAddr   = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const promptAddr  = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const [owner] = await ethers.getSigners();
+await auction.isEnded();
+await auction.getEndTime();
+(await auction.getCurrentPrice()).toString();
+const auction = await ethers.getContractAt("DutchAuction", auctionAddr, owner);
+const auctionAddr = await factory.getAunctionByTokenId(tokenId);
+await factory.createAuction(3600, tokenId);
+await image.approve(factoryAddr, tokenId);
+tokenId.toString();
+const tokenId = await image.getTokenIdByCID("QmImg");
+await image.awardItem(owner.address, "QmMeta", "QmImg", "QmTestPrompt");
+await prompt.awardItem(owner.address, "QmTestPrompt");
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const image   = await ethers.getContractAt("ImageNFT", imageAddr, owner);
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+const factoryAddr = "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+const imageAddr   = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const promptAddr  = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const [owner] = await ethers.getSigners();
+auctionAddr;
+const auctionAddr = await factory.getAunctionByTokenId(1);
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const factoryAddr = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+const imageAddr   = "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707";
+const promptAddr  = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9";
+const [owner] = await ethers.getSigners();
+await rich.sendTransaction({  to: "0x3fd6dc177040a68ea1572cc6300d1d89c8b6450b",  value: ethers.parseEther("100.0")});
+rich.address;
+const [rich] = await ethers.getSigners();
+(await auction.getCurrentPrice()).toString();
+await auction.isEnded();
+await auction.getEndTime();
+(await auction.getCurrentPrice()).toString();
+const auction = await ethers.getContractAt("DutchAuction", auctionAddr, owner);
+auctionAddr;
+const auctionAddr = await factory.getAunctionByTokenId(1);
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const factoryAddr = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+const imageAddr   = "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707";
+const promptAddr  = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9";
+const [owner] = await ethers.getSigners();
+await DutchAuction.isEnded();
+await DutchAuction.getEndTime();
+(await DutchAuction.getCurrentPrice()).toString();
+// 3. 试一下几个 view 函数
+const DutchAuction = await ethers.getContractAt("DutchAuction", auctionAddr, owner);
+// 2. 绑定 DutchAuction 合约实例
+// 应该打印出 "0x9bd03768a7DCc129555dE410FF8E85528A4F88b5"
+auctionAddr;
+const auctionAddr = await factory.getAunctionByTokenId(1);
+// 1. 重新取拍卖地址，并保存到变量里：
+await DutchAuction.isEnded();
+await DutchAuction.getEndTime();
+(await DutchAuction.getCurrentPrice()).toString();
+// 3. 测一下 view 函数
+const DutchAuction = await ethers.getContractAt("DutchAuction", auctionAddr, owner);
+// 2. 绑定 DutchAuction 合约实例
+auctionAddr   // 回显确认一下
+const auctionAddr = await factory.getAunctionByTokenId(1);
+// 1. 先保存地址
+await DutchAuction.isEnded();
+await DutchAuction.getEndTime();
+(await DutchAuction.getCurrentPrice()).toString();
+// 看看这些 view 函数能不能正常调用
+const DutchAuction = await ethers.getContractAt("DutchAuction", auctionAddr, owner);
+await factory.getAunctionByTokenId(1);
+// 完成 🎉
+await factory.createAuction(3600, tokenId);
+// 🟦 7. 创建荷兰拍卖（1 小时）
+await image.approve(factoryAddr, tokenId);
+// 🟦 6. 授权给 AuctionFactory
+tokenId.toString()
+const tokenId = await image.getTokenIdByCID("QmTestImage");
+// 🟦 5. 获取 tokenId
+await image.awardItem(owner.address, "QmMetadata", "QmTestImage", "QmTestPrompt");
+await prompt.awardItem(owner.address, "QmTestPrompt");
+// 🟦 4. 铸造 NFT
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const image   = await ethers.getContractAt("ImageNFT", imageAddr, owner);
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+// 🟦 3. 绑定合约
+const factoryAddr = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+const imageAddr   = "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707";
+const promptAddr  = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9";
+// 🟦 2. 合约地址（按你发的最新一份）
+owner.address
+const [owner] = await ethers.getSigners();
+// 🟦 1. 获取 signer（默认账户）
+// 完成 🎉
+await factory.createAuction(3600, tokenId);
+// 🟦 7. 创建荷兰拍卖（1 小时）
+await image.approve(factoryAddr, tokenId);
+// 🟦 6. 授权给 AuctionFactory
+tokenId.toString()
+const tokenId = await image.getTokenIdByCID("QmTestImage");
+// 🟦 5. 获取 tokenId
+await image.awardItem(owner.address, "QmMetadata", "QmTestImage", "QmTestPrompt");
+await prompt.awardItem(owner.address, "QmTestPrompt");
+// 🟦 4. 铸造 NFT
+const factory = await ethers.getContractAt("AuctionFactory", factoryAddr, owner);
+const image   = await ethers.getContractAt("ImageNFT", imageAddr, owner);
+const prompt  = await ethers.getContractAt("PromptNFT", promptAddr, owner);
+// 🟦 3. 绑定合约
+const factoryAddr = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+const imageAddr   = "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707";
+const promptAddr  = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9";
+// 🟦 2. 合约地址（按你发的最新一份）
+owner.address
+const [owner] = await ethers.getSigners();
+// 🟦 1. 获取 signer（默认账户）
+await factory.createAuction(3600, tokenId)
+await image.approve("<auctionFactory-address>", tokenId)
+const tokenId = await image.getTokenIdByCID("QmTestImage")
+await image.awardItem("<your address>", "QmMetadata", "QmTestImage", "QmTestPrompt")
+await prompt.awardItem("<your address>", "QmTestPrompt")
+const factory = await ethers.getContractAt("AuctionFactory", "<auctionFactory-address>")
+const image = await ethers.getContractAt("ImageNFT", "<imageNFT-address>")
+const prompt = await ethers.getContractAt("PromptNFT", "<promptNFT-address>")
+await factory.createAuction(3600, tokenId)
+await image.approve("<auctionFactory-address>", tokenId)
+const tokenId = await image.getTokenIdByCID("QmTestImage")
+await image.awardItem("<your address>", "QmMetadata", "QmTestImage", "QmTestPrompt")
+await prompt.awardItem("<your address>", "QmTestPrompt")
+const factory = await ethers.getContractAt("AuctionFactory", "<auctionFactory-address>")
+const image = await ethers.getContractAt("ImageNFT", "<imageNFT-address>")
+const prompt = await ethers.getContractAt("PromptNFT", "<promptNFT-address>")
